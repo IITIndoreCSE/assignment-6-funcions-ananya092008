@@ -19,7 +19,9 @@ vector<long long> productExceptIndex(const vector<int>& arr) {
         suffix *= arr[i]; 
     }
 
-return output;
+    return output;
+ }
+ 
 
 int main() {
     int n; cin >> n;
@@ -33,4 +35,5 @@ int main() {
 
     return 0;
 }
+
 
