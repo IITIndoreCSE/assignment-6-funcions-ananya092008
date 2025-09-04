@@ -14,8 +14,6 @@ int secondLargest(const vector<int>& arr) {
             second = num;
     }
 
-}
-
 return (second == INT_MIN) ? -1 : second;
 }
 
@@ -27,4 +25,3 @@ int main() {
     cout << secondLargest(arr) << "\n";
     return 0;
 }
-
