@@ -19,4 +19,3 @@ int main() {
     cout << sumArray(arr) << "\n";
     return 0;
 }
-
