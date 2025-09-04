@@ -4,8 +4,19 @@
 using namespace std;
 
 int secondLargest(const vector<int>& arr) {
-    // TODO: complete the function as per instructions
+    int first = INT_MIN, second = INT_MIN;
 
+    for (int num : arr) {
+        if (num > first) {
+            second = first;
+            first = num;
+        }else if (num > second && num != first)
+            second = num;
+    }
+
+}
+
+return (second == INT_MIN) ? -1 : second;
 }
 
 int main() {
